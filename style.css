@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(144, 59, 111);
+    display: flex;
+    position: fixed;
+}
+.p1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+.p1 ul {
+    list-style: none;
+   
+}
+.p1 ul li{
+    display: inline;
+    padding: 20px;
+}
+.p1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: Anton;
+}
+.p2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p3{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+.p3 ul {
+    list-style: none;
+   
+}
+.p3 ul li{
+    display: inline;
+    padding: 20px;
+}
+.p3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: Anton;
+}
+.bs1{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btext{
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.btext h1{
+   padding-top: 30%;
+   font-size: 50px;
+   color: rgb(144, 59, 111);
+}
+.btext p{
+    margin: 30px;
+
+}
+.btext button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0px solid black;
+    background-color:rgb(144, 59, 111) ;
+    color: white;
+}
+.bs2{
+    height: 700px;
+    width: 100%;
+    background-image:url(images/10.png) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bs2-second{
+    height: 600px;
+    width: 80%;
+    display: inline-block;
+    justify-content: center;
+    
+}
+.bal{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: rgb(144, 59, 111);
+}
+.sal{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second-1{
+    height: 400px;
+    width: 20%;
+    background-color: aquamarine;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 30px;
+    background-image: url(images/2.jpg);
+    
+}
+.second-1 h4{
+    background-color: rgb(233, 196, 203);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(335px);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(144, 59, 111);
+    
+
+    
+}
+.second-2{
+    height: 400px;
+    width: 20%;
+    background-color: rgb(30, 42, 38);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 30px;
+    background-image: url(images/3.jpg);
+
+}
+.second-2 h4{
+    background-color: rgb(233, 196, 203);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(335px);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(144, 59, 111);
+}
+.second-3{
+    height: 400px;
+    width: 20%;
+    background-color: rgb(7, 25, 19);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 30px;
+    background-image: url(images/4.jpg);
+
+}
+.second-3 h4{
+    background-color: rgb(233, 196, 203);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(335px);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(144, 59, 111);
+}
+.body-part-3{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(233, 196, 203);
+    display: flex;
+}
+.one{
+    height: 600px;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.one h1{
+    padding-top: 15%;
+    font-size: 50px;
+    color: rgb(144, 59, 111);
+ }
+ .one p{
+     margin: 30px;
+ 
+ }
+ .one button{
+     width: 200px;
+     height: 50px;
+     border-radius: 20px;
+     background-color: rgb(233, 196, 203);
+     border: 2px solid rgb(144, 59, 111);
+     color: rgb(144, 59, 111);
+ }
+ .two{
+    height: 500px;
+    width: 50%;
+    float: right;
+    background-image: url(images/5+6-Photoroom.png-Photoroom.png);
+   background-position: center;
+   background-size: cover;
+   margin-left: 100px;
+ }
+ .body-part-4{
+    height: 400px;
+    width: 1000%;
+    background-color: rgb(233, 196, 203);
+    margin-top: 100px;
+    background-image: url(images/leftbg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+ }
